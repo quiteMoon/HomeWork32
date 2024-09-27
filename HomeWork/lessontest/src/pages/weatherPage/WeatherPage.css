@@ -1,0 +1,42 @@
+.weather-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.input-city {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.weather-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.weather-button:hover {
+    background-color: #45a049;
+}
+
+.cloudiness-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.cloudiness-container p {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
